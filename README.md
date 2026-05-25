@@ -2,8 +2,8 @@
 
 This repository contains the input data, structures, parameters, and scipts associated with the manuscript:
 
-> **Conformational Gating of an Active-Site Loop Governs Phenolic and Aromatic Amine Substrate Selectivity in Fungal Laccase**
->> *Anushka Biswas, Deepshikha Singh, Bhaskar Datta and Mithun Radhakrishna*
+> *Conformational Gating of an Active-Site Loop Governs Phenolic and Aromatic Amine Substrate Selectivity in Fungal Laccase*
+>> **Anushka Biswas, Deepshikha Singh, Bhaskar Datta and Mithun Radhakrishna**
 ---
 
 ## Repository Structure
