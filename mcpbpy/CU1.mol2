@@ -1,0 +1,12 @@
+@<TRIPOS>MOLECULE
+CU1
+    1     0     1     0     0
+SMALL
+RESP Charge
+ 
+ 
+@<TRIPOS>ATOM
+      1 CU        -25.5760    2.4180   61.9080 M1        1 CU1      0.837233
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 CU1         1 TEMP              0 ****  ****    0 ROOT

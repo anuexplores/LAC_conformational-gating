@@ -1,0 +1,12 @@
+@<TRIPOS>MOLECULE
+CU2
+    1     0     1     0     0
+SMALL
+RESP Charge
+ 
+ 
+@<TRIPOS>ATOM
+      1 CU        -13.5250    3.1760   64.0850 M2        1 CU2      0.825259
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 CU2         1 TEMP              0 ****  ****    0 ROOT
