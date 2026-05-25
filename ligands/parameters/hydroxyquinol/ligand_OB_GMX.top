@@ -1,0 +1,20 @@
+; ligands_OB.pdb.mol2_GMX.top created by acpype (v: 2022.7.21) on Fri Oct 17 22:45:27 2025
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333333333
+
+; Include ligands_OB.pdb.mol2_GMX.itp topology
+#include "ligands_OB.pdb.mol2_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_ligands_OB.pdb.mol2.itp"
+#endif
+
+[ system ]
+ ligands_OB.pdb.mol2
+
+[ molecules ]
+; Compound        nmols
+ ligands_OB.pdb.mol2 1
