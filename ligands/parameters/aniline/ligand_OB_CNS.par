@@ -1,0 +1,40 @@
+Remarks ligands_OB.pdb.mol2_CNS.par created by acpype (v: 2022.7.21) on Wed Mar 26 06:44:32 2025
+
+set echo=false end
+
+{ Bonds: atomType1 atomType2 kb r0 }
+BOND   nv_   hn_    529.5   1.0120
+BOND   ca_   ha_    395.7   1.0860
+BOND   nv_   ca_    347.1   1.3860
+BOND   ca_   ca_    378.6   1.3980
+
+{ Angles: aType1 aType2 aType3 kt t0 }
+ANGLe   ca_   nv_   hn_     48.8   116.07
+ANGLe   ca_   ca_   ha_     48.7   119.88
+ANGLe   hn_   nv_   hn_     39.5   115.12
+ANGLe   nv_   ca_   ca_     86.2   120.95
+ANGLe   ca_   ca_   ca_     68.8   120.02
+
+{ Proper Dihedrals: aType1 aType2 aType3 aType4 kt period phase }
+DIHEdral   ca_   ca_   nv_   hn_           1.050    2   180.00
+DIHEdral   ha_   ca_   ca_   ha_           3.625    2   180.00
+DIHEdral   ca_   ca_   ca_   ca_           3.625    2   180.00
+DIHEdral   hn_   nv_   ca_   ca_           1.050    2   180.00
+DIHEdral   nv_   ca_   ca_   ca_           3.625    2   180.00
+DIHEdral   ca_   ca_   ca_   ha_           3.625    2   180.00
+DIHEdral   nv_   ca_   ca_   ha_           3.625    2   180.00
+
+{ Improper Dihedrals: aType1 aType2 aType3 aType4 kt period phase }
+IMPRoper   nv_   ca_   ca_   ca_           1.1    2   180.00
+IMPRoper   hn_   nv_   hn_   ca_           1.1    2   180.00
+IMPRoper   ca_   ca_   ca_   ha_           1.1    2   180.00
+IMPRoper   ca_   ca_   ca_   nv_           1.1    2   180.00
+IMPRoper   ca_   hn_   nv_   hn_           1.1    2   180.00
+
+{ Nonbonded: Type Emin sigma; (1-4): Emin/2 sigma }
+NONBonded   nv_    0.112000    3.368132    0.056000    3.368132
+NONBonded   ca_    0.098800    3.315212    0.049400    3.315212
+NONBonded   ha_    0.016100    2.625479    0.008050    2.625479
+NONBonded   hn_    0.010000    1.106496    0.005000    1.106496
+
+set echo=true end
