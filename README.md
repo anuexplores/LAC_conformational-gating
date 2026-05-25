@@ -14,6 +14,7 @@ LAC_conformational-gating/
 │   ├── parameters/          # GAFF2, Charmm, Amber, and Gromacs force field parameters for each ligand
 │   └── structure/           # 3D ligand structures from PubChem (SDF)
 ├── mcpbpy/                  # Catalytic pocket parameters (MCPB.py output)
+├── md_scripts/              # Minimization and simulation scripts for performing MD simulations
 ├── msm/
 │   ├── intermediate-poses/  # 200 representative protein conformations (PDB)
 │   └── scripts/             # Serialized MSM and clustering objects
@@ -56,6 +57,10 @@ MCPB.py (Metal Center Parameter Builder, AmberTools23) output files for the four
 These files are required to reproduce the GROMACS topology for the copper-containing enzyme system.
 
 ---
+
+### `md_scripts/`
+
+Molecular Dynamics (MD) Simulations scripts
 
 ### `msm/`
 
