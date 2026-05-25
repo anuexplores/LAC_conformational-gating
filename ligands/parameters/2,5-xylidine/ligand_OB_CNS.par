@@ -1,0 +1,50 @@
+Remarks ligand_OB.pdb.mol2_CNS.par created by acpype (v: 2022.7.21) on Sat Jan 25 11:55:10 2025
+
+set echo=false end
+
+{ Bonds: atomType1 atomType2 kb r0 }
+BOND   ca_   ha_    395.7   1.0860
+BOND   nv_   hn_    529.5   1.0120
+BOND   c3_   hc_    375.9   1.0970
+BOND   ca_   ca_    378.6   1.3980
+BOND   ca_   nv_    347.1   1.3860
+BOND   ca_   c3_    250.3   1.5160
+
+{ Angles: aType1 aType2 aType3 kt t0 }
+ANGLe   ca_   nv_   hn_     48.8   116.07
+ANGLe   ca_   ca_   ha_     48.7   119.88
+ANGLe   ca_   c3_   hc_     47.3   110.47
+ANGLe   hn_   nv_   hn_     39.5   115.12
+ANGLe   hc_   c3_   hc_     39.0   107.58
+ANGLe   ca_   ca_   c3_     65.6   120.77
+ANGLe   ca_   ca_   ca_     68.8   120.02
+ANGLe   ca_   ca_   nv_     86.2   120.95
+
+{ Proper Dihedrals: aType1 aType2 aType3 aType4 kt period phase }
+DIHEdral   ca_   ca_   ca_   c3_           3.625    2   180.00
+DIHEdral   nv_   ca_   ca_   ha_           3.625    2   180.00
+DIHEdral   ca_   ca_   nv_   hn_           1.050    2   180.00
+DIHEdral   ha_   ca_   ca_   ha_           3.625    2   180.00
+DIHEdral   ca_   ca_   ca_   ca_           3.625    2   180.00
+DIHEdral   nv_   ca_   ca_   ca_           3.625    2   180.00
+DIHEdral   c3_   ca_   ca_   ha_           3.625    2   180.00
+DIHEdral   nv_   ca_   ca_   c3_           3.625    2   180.00
+DIHEdral   ca_   ca_   ca_   ha_           3.625    2   180.00
+DIHEdral   ca_   ca_   c3_   hc_           0.000    2   180.00
+
+{ Improper Dihedrals: aType1 aType2 aType3 aType4 kt period phase }
+IMPRoper   nv_   ca_   ca_   ca_           1.1    2   180.00
+IMPRoper   c3_   ca_   ca_   ca_           1.1    2   180.00
+IMPRoper   ca_   ca_   ca_   ha_           1.1    2   180.00
+IMPRoper   ca_   hn_   nv_   hn_           1.1    2   180.00
+IMPRoper   ca_   ca_   ca_   c3_           1.1    2   180.00
+
+{ Nonbonded: Type Emin sigma; (1-4): Emin/2 sigma }
+NONBonded   ca_    0.098800    3.315212    0.049400    3.315212
+NONBonded   nv_    0.112000    3.368132    0.056000    3.368132
+NONBonded   c3_    0.107800    3.397710    0.053900    3.397710
+NONBonded   ha_    0.016100    2.625479    0.008050    2.625479
+NONBonded   hn_    0.010000    1.106496    0.005000    1.106496
+NONBonded   hc_    0.020800    2.600177    0.010400    2.600177
+
+set echo=true end

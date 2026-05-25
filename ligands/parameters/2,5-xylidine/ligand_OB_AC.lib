@@ -1,0 +1,154 @@
+!!index array str
+ "UNK"
+!entry.UNK.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "C1" "ca" 0 1 131072 1 6 0.139600
+ "C2" "ca" 0 1 131072 2 6 -0.139300
+ "C3" "ca" 0 1 131072 3 6 -0.091000
+ "C4" "ca" 0 1 131072 4 6 -0.169000
+ "C5" "ca" 0 1 131072 5 6 -0.044300
+ "C6" "ca" 0 1 131072 6 6 -0.189000
+ "N" "nv" 0 1 131072 7 7 -0.815200
+ "C8" "c3" 0 1 131072 8 6 -0.054800
+ "C9" "c3" 0 1 131072 9 6 -0.045800
+ "H" "ha" 0 1 131072 10 1 0.128000
+ "H1" "ha" 0 1 131072 11 1 0.130000
+ "H2" "ha" 0 1 131072 12 1 0.130000
+ "H3" "hn" 0 1 131072 13 1 0.385800
+ "H4" "hn" 0 1 131072 14 1 0.385800
+ "H5" "hc" 0 1 131072 15 1 0.043700
+ "H6" "hc" 0 1 131072 16 1 0.043700
+ "H7" "hc" 0 1 131072 17 1 0.043700
+ "H8" "hc" 0 1 131072 18 1 0.039700
+ "H9" "hc" 0 1 131072 19 1 0.039700
+ "H10" "hc" 0 1 131072 20 1 0.039700
+!entry.UNK.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "C1" "ca" 0 -1 0.0
+ "C2" "ca" 0 -1 0.0
+ "C3" "ca" 0 -1 0.0
+ "C4" "ca" 0 -1 0.0
+ "C5" "ca" 0 -1 0.0
+ "C6" "ca" 0 -1 0.0
+ "N" "nv" 0 -1 0.0
+ "C8" "c3" 0 -1 0.0
+ "C9" "c3" 0 -1 0.0
+ "H" "ha" 0 -1 0.0
+ "H1" "ha" 0 -1 0.0
+ "H2" "ha" 0 -1 0.0
+ "H3" "hn" 0 -1 0.0
+ "H4" "hn" 0 -1 0.0
+ "H5" "hc" 0 -1 0.0
+ "H6" "hc" 0 -1 0.0
+ "H7" "hc" 0 -1 0.0
+ "H8" "hc" 0 -1 0.0
+ "H9" "hc" 0 -1 0.0
+ "H10" "hc" 0 -1 0.0
+!entry.UNK.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.UNK.unit.childsequence single int
+ 2
+!entry.UNK.unit.connect array int
+ 0
+ 0
+!entry.UNK.unit.connectivity table  int atom1x  int atom2x  int flags
+ 1 2 4
+ 1 7 1
+ 1 6 4
+ 2 9 1
+ 2 3 4
+ 3 4 4
+ 3 10 1
+ 4 5 4
+ 4 11 1
+ 5 6 4
+ 5 8 1
+ 6 12 1
+ 7 13 1
+ 7 14 1
+ 8 15 1
+ 8 16 1
+ 8 17 1
+ 9 18 1
+ 9 19 1
+ 9 20 1
+!entry.UNK.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+ "R" 1 "A" 2
+ "R" 1 "A" 3
+ "R" 1 "A" 4
+ "R" 1 "A" 5
+ "R" 1 "A" 6
+ "R" 1 "A" 7
+ "R" 1 "A" 8
+ "R" 1 "A" 9
+ "R" 1 "A" 10
+ "R" 1 "A" 11
+ "R" 1 "A" 12
+ "R" 1 "A" 13
+ "R" 1 "A" 14
+ "R" 1 "A" 15
+ "R" 1 "A" 16
+ "R" 1 "A" 17
+ "R" 1 "A" 18
+ "R" 1 "A" 19
+ "R" 1 "A" 20
+!entry.UNK.unit.name single str
+ "ligand_OB.pdb"
+!entry.UNK.unit.positions table  dbl x  dbl y  dbl z
+ -29.756000 6.053000 57.872000
+ -30.876000 5.687000 56.880000
+ -32.341000 6.035000 57.294000
+ -32.662000 6.710000 58.633000
+ -31.502000 7.037000 59.602000
+ -30.035000 6.721000 59.226000
+ -28.478000 5.793000 57.597000
+ -31.867000 7.698000 60.945000
+ -30.565000 4.997000 55.549000
+ -33.113000 5.805000 56.650000
+ -33.636000 6.942000 58.883000
+ -29.263000 6.954000 59.870000
+ -28.235000 5.365000 56.744000
+ -27.777000 6.029000 58.247000
+ -32.928000 7.827000 61.003000
+ -31.388000 8.652000 61.015000
+ -31.539000 7.074000 61.750000
+ -31.475000 4.832000 55.012000
+ -30.087000 4.059000 55.737000
+ -29.916000 5.618000 54.968000
+!entry.UNK.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 0 0 0 0 0 0
+!entry.UNK.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "UNK" 1 21 1 "?" 0
+!entry.UNK.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.UNK.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.UNK.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
